@@ -16,16 +16,9 @@
 		7B21325628AC5D86009139CC /* TVShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B21325528AC5D86009139CC /* TVShowsViewController.swift */; };
 		7B21325828AC65D8009139CC /* LoginModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B21325728AC65D8009139CC /* LoginModelProtocol.swift */; };
 		7B21325A28AC673D009139CC /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B21325928AC673D009139CC /* LoginPresenter.swift */; };
-		7B21325F28AC7E62009139CC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7B21325E28AC7E62009139CC /* FirebaseAnalytics */; };
-		7B21326128AC7E62009139CC /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 7B21326028AC7E62009139CC /* FirebaseAnalyticsOnDeviceConversion */; };
-		7B21326328AC7E62009139CC /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7B21326228AC7E62009139CC /* FirebaseAnalyticsSwift */; };
-		7B21326528AC7E62009139CC /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7B21326428AC7E62009139CC /* FirebaseDatabase */; };
-		7B21326728AC7E62009139CC /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7B21326628AC7E62009139CC /* FirebaseDatabaseSwift */; };
 		7B21326A28AC8468009139CC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7B21326928AC8468009139CC /* FirebaseAuth */; };
-		7B21326C28AC8468009139CC /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7B21326B28AC8468009139CC /* FirebaseAuthCombine-Community */; };
 		7B2132AB28AD1B12009139CC /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2132AA28AD1B12009139CC /* MoviesModel.swift */; };
 		7BAD173E28B0730E00C84EB1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7BAD173D28B0730E00C84EB1 /* FirebaseAuth */; };
-		7BAD174028B0730E00C84EB1 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7BAD173F28B0730E00C84EB1 /* FirebaseAuthCombine-Community */; };
 		7BAD174228B07BEC00C84EB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BAD174128B07BEC00C84EB1 /* GoogleService-Info.plist */; };
 		7BAE056028AD94B500904536 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE055F28AD94B500904536 /* MovieCollectionViewCell.swift */; };
 		7BAE056228ADC66600904536 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAE056128ADC66600904536 /* PerfilViewController.swift */; };
@@ -58,14 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B21326728AC7E62009139CC /* FirebaseDatabaseSwift in Frameworks */,
-				7BAD174028B0730E00C84EB1 /* FirebaseAuthCombine-Community in Frameworks */,
 				7B21326A28AC8468009139CC /* FirebaseAuth in Frameworks */,
-				7B21326328AC7E62009139CC /* FirebaseAnalyticsSwift in Frameworks */,
-				7B21325F28AC7E62009139CC /* FirebaseAnalytics in Frameworks */,
-				7B21326528AC7E62009139CC /* FirebaseDatabase in Frameworks */,
-				7B21326C28AC8468009139CC /* FirebaseAuthCombine-Community in Frameworks */,
-				7B21326128AC7E62009139CC /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				7BAD173E28B0730E00C84EB1 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,15 +163,8 @@
 			);
 			name = TheMovieDB;
 			packageProductDependencies = (
-				7B21325E28AC7E62009139CC /* FirebaseAnalytics */,
-				7B21326028AC7E62009139CC /* FirebaseAnalyticsOnDeviceConversion */,
-				7B21326228AC7E62009139CC /* FirebaseAnalyticsSwift */,
-				7B21326428AC7E62009139CC /* FirebaseDatabase */,
-				7B21326628AC7E62009139CC /* FirebaseDatabaseSwift */,
 				7B21326928AC8468009139CC /* FirebaseAuth */,
-				7B21326B28AC8468009139CC /* FirebaseAuthCombine-Community */,
 				7BAD173D28B0730E00C84EB1 /* FirebaseAuth */,
-				7BAD173F28B0730E00C84EB1 /* FirebaseAuthCombine-Community */,
 			);
 			productName = TheMovieDB;
 			productReference = 7B21323828AC573E009139CC /* TheMovieDB.app */;
@@ -505,50 +484,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7B21325E28AC7E62009139CC /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7B21325D28AC7E62009139CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		7B21326028AC7E62009139CC /* FirebaseAnalyticsOnDeviceConversion */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7B21325D28AC7E62009139CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsOnDeviceConversion;
-		};
-		7B21326228AC7E62009139CC /* FirebaseAnalyticsSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7B21325D28AC7E62009139CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsSwift;
-		};
-		7B21326428AC7E62009139CC /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7B21325D28AC7E62009139CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-		7B21326628AC7E62009139CC /* FirebaseDatabaseSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7B21325D28AC7E62009139CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabaseSwift;
-		};
 		7B21326928AC8468009139CC /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7B21325D28AC7E62009139CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
-		7B21326B28AC8468009139CC /* FirebaseAuthCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7B21325D28AC7E62009139CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAuthCombine-Community";
-		};
 		7BAD173D28B0730E00C84EB1 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7B21325D28AC7E62009139CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
-		};
-		7BAD173F28B0730E00C84EB1 /* FirebaseAuthCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7B21325D28AC7E62009139CC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAuthCombine-Community";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
