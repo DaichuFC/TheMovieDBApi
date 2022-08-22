@@ -21,7 +21,6 @@ extension TVShowsViewController: UICollectionViewDataSource, UICollectionViewDel
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCelda", for: indexPath) as! ShowsCollectionViewCell
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCell", for: indexPath) as! MovieCollectionViewCell
         
         cell.outInfo(data: dataList[indexPath.row])
