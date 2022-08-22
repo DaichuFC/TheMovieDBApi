@@ -8,10 +8,6 @@
 import UIKit
 import FirebaseAuth
 
-//enum ProviderType: String{
-//    case basic
-//}
-
 class TVShowsViewController: UIViewController {
 
     @IBOutlet var viewTVShows: UIView!
