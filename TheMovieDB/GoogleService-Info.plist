@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>278194075247-7shrac57kjfi19c9n6i8ribne0m14psb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.278194075247-7shrac57kjfi19c9n6i8ribne0m14psb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC8s7JVorGCf4MIRF71-4up5HRyftUVmaM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>278194075247</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>dai.TheMovieDB</string>
+	<key>PROJECT_ID</key>
+	<string>daichu-proyecto-2022</string>
+	<key>STORAGE_BUCKET</key>
+	<string>daichu-proyecto-2022.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:278194075247:ios:19a8f85c190a6719d4ff9a</string>
+</dict>
+</plist>
